@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.home{
+  display: grid;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.equalizer{
+  width: 146.09px;
+  height: 32px;
+  color: #191826;
+}
+
+.header{
+  width: 825px;
+  padding-bottom: 250px;
+}
+
+.header h1{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  color: #191826;
+  margin-top: 150px;
+}
+
+.header p{
+  width: 825px;
+  height: 102px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #191826;
+}
+
+.header-img{
+  position: absolute;
+  top: 0;
+  right: 0
+  ;
+}
+
+.assets-div{
+  position: relative;
+  background-color: #191826;
+  width: 70vw;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.img2{
+  width: 320px;
+  height: 460px;
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+}
+
+.img3{
+  position: absolute;
+  width: 300px;
+  height: 606px;
+  bottom: 30%;
+  left: 10%;
+}
+
+.card-div{
+  position: absolute;
+  right: 8%;
+  top: 15%;
+  width: 446px;
+  height: 625px;
+  background-color: #FA7453;
+  border-radius: 12px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-div h2{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FCFAF9;
+  width: 333px;
+  height: 52px;
+  margin-bottom: 0;
+}
+
+.par {
+  width: 333px;
+  height: 170px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FCFAF9;
+  margin: 0;
+}
+
+.price-div{
+  display: flex;
+  align-items: center;
+}
+
+.p1{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: #FCFAF9;
+  margin: 0;
+}
+
+.p2{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #FCFAF9;
+  margin: 0;
+}
+
+.ios{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191826;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.ios:hover{
+  background-color: #66E2DC;
+
+}
+
+.android{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.android:hover{
+  background-color: #FFB964
+  ;
+}
+
+.ios h3{
   color: white;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.android h3{
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding: 30px;
+}
+
+.footer h2{
+  margin: 0;
+  margin-right: 50px
+}
+
+.footer p{
+  margin: 0;
+  width: 366px;
+  height: 79px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+
+.social-div img{
+  margin-left: 10px;
 }
