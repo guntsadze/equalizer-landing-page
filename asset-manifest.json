@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/equalizer-landing-page/static/css/main.bb663ab3.css",
+    "main.js": "/equalizer-landing-page/static/js/main.77e84e1b.js",
+    "index.html": "/equalizer-landing-page/index.html",
+    "main.bb663ab3.css.map": "/equalizer-landing-page/static/css/main.bb663ab3.css.map",
+    "main.77e84e1b.js.map": "/equalizer-landing-page/static/js/main.77e84e1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb663ab3.css",
+    "static/js/main.77e84e1b.js"
+  ]
+}
